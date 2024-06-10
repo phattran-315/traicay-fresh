@@ -8,11 +8,11 @@ import {
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import React from "react";
-export const generateStaticParams = async () => {
-  const { data: products } = await getProducts();
-  const ids = (products || []).map((product) => ({ id: product.id }));
-  return ids;
-};
+// export const generateStaticParams = async () => {
+//   const { data: products } = await getProducts();
+//   const ids = (products || []).map((product) => ({ id: product.id }));
+//   return ids;
+// };
 export const generateMetadata = async ({
   params,
 }: {
