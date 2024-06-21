@@ -88,7 +88,8 @@ export default buildConfig({
     outputFile: path.resolve(__dirname, "payload-types.ts"),
   },
   csrf: [
-    "https://trai-cay-fresh.up.railway.app",
+    "https://trai-cay-fresh.up.railway.app",,
+    'https://traicayfresh.shop',
     // whitelist of domains to allow cookie auth from
     process.env.NEXT_PUBLIC_SERVER_URL!,
   ],

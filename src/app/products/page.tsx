@@ -11,7 +11,7 @@ const Products = async () => {
       <BreadCrumbLinks
         links={[{ label: "Tất cả sản phẩm", href: APP_URL.products }]}
       />
-      <PageTitle>Tất cả sản phẩm</PageTitle>
+      <PageTitle>Tất cả sản phẩm !</PageTitle>
       <ProductList products={products!} />
     </>
   );
